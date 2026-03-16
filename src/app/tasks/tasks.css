@@ -1,0 +1,50 @@
+
+.root {
+    flex: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.h1 {
+    background-color: black;
+    fill: azure;
+    font-weight: 900;
+    padding: 0.6rem;
+}
+
+.h2 {
+    background-color: black;
+    fill: grey;
+    font-weight: 700;
+    padding-bottom: 0.4rem;
+}
+
+.task-form {
+    background-color: gray;
+    fill: black;
+    font-weight: 400;
+    padding: 0.35rem;
+    border-radius: 16px;
+}
+
+.task-list{
+    background-color: black;
+    fill:white;
+    font-weight: 400;
+    padding: 0.35rem;
+}
+
+.checkbox {
+    border: 16px;
+    border-color: gray;
+    padding-right: 5px;
+}
+
+.checkbox :hover {
+    cursor: pointer;
+}
+
+.checkbox ::checkmark {
+    background-color: greenyellow;
+}
+
+
